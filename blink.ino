@@ -1,13 +1,13 @@
-  // the setup function runs once when you press reset or power the board
+  // a função setup() é executada uma vez quando você pressiona reset ou liga a placa
 void setup() {
-    // initialize digital pin 13 as an output.
+    // inicializa o pino digital 13 como uma saída
   pinMode(13, OUTPUT);
 }
 
-  // the loop function runs over and over again forever
+  // a função loop() é executada repetidamente 
 void loop() {
-  digitalWrite(13, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);              // wait for a second
-  digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);              // wait for a second
+  digitalWrite(13, HIGH);   // liga o LED (HIGH é o nível de tensão)
+  delay(1000);              // espera um segundo
+  digitalWrite(13, LOW);    // desliga o LED tornando a tensão BAIXA
+  delay(1000);              // espera um segundo
 }
